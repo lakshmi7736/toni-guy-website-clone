@@ -1,0 +1,271 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+      text-align: center;
+
+}
+
+.flexbox-container
+{
+display: flex;
+z-index: 1;
+width: 100%;
+position: fixed;
+background-color: #ffffff;
+opacity: 0.9;
+}
+
+.flexbox-item
+{
+height: 60px;
+margin: 10px;
+}
+
+.flexbox-item-1
+{
+    width:5%;
+    
+
+}
+
+.flexbox-item-1 svg
+{
+    position: relative;
+    top:18px;
+    left:10px;
+    
+    
+
+}
+
+.flexbox-item-2
+{
+    
+    width: 80%;
+    display: flex;
+  justify-content: center;
+    
+}
+.flexbox-item-2 img
+{
+    
+   position: relative;
+   left:110px;
+    
+}
+.flexbox-item-3
+{
+    height: 60px;
+    width: 22%;
+    display: flex;
+    padding: 0px;
+    margin: auto;
+    
+    
+}
+.box
+{
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  border: 5px solid #000000;
+  position: relative;
+  padding: 14px 4px;
+  height: 12px;
+  font-weight: bolder;
+  font-size: 16px;
+
+ }
+ .box:hover {
+    background-color: #000000;
+    color: #ffffff;
+    
+  }
+  
+  
+  .container
+  {
+    height: 700px;
+  }
+  .poster1
+  {
+    background-image: url('https://d1rul2a3ub0mat.cloudfront.net/media-library/1628/2121025b016b7fb5dd62c0ef4d4a1db43bb5f45c.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  .pr
+  {
+    height: auto;
+    width: 50%;
+    float: right;
+    margin-top: 10%;
+
+  }
+  .pl
+  {
+    height: auto;
+    width: 50%;
+    float: left;
+    margin-top: 10%;
+
+  }
+
+
+  .poster2
+  {
+    background-image: url('https://d1rul2a3ub0mat.cloudfront.net/media-library/1509/60bfddae7e4d586102a8c70df16d9b27967a401f.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .poster3
+  {
+    background-image: url('https://d1rul2a3ub0mat.cloudfront.net/media-library/1485/f75d6c691f6817a0156b046e5220868b93f89d0b.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+
+  .poster4
+  {
+    background-image: url('https://d1rul2a3ub0mat.cloudfront.net/media-library/1505/85c5c387820514de6483fe534857e68e8e223a19.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+ 
+
+  
+  .poster5
+  {
+    background-image: url('https://d1rul2a3ub0mat.cloudfront.net/media-library/1506/9700e0d1d554d43e203647b56e7b64d03c625839.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+
+  .poster6
+  {
+    background-image: url('https://d1rul2a3ub0mat.cloudfront.net/media-library/1651/3566834dc31af31ce6fea939e34f866d91f4b6ca.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+  .poster7
+  {
+    background-image: url('https://d1rul2a3ub0mat.cloudfront.net/media-library/1491/059fb2d8c4f69d13b8b92dfedde03e7e3c5532c8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.poster8
+{
+    background-image: url('https://d1rul2a3ub0mat.cloudfront.net/media-library/1653/7ea515ea6f0a4d27b0843bc670ebeac9a5add94c.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.poster9
+  {
+    background-image: url('https://d1rul2a3ub0mat.cloudfront.net/media-library/1487/10f082d4bb1fc276af42c1062ccaa627eb811f2d.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    background-position: center;
+  }
+  h1
+  {
+    margin: 0px;
+    font-size: 3.75rem;
+    line-height: 1;
+    letter-spacing: -.05em;
+    text-transform: uppercase;
+    font-weight: 900;
+   
+  }
+  p
+  {
+    margin: 0px 85px;
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 2.7rem;
+    word-spacing: 0px;
+  }
+.icon
+  { 
+   width: 130px;
+  }
+  .white
+  {
+    color: #ffffff;
+  }
+.whitex
+{
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  border: 5px solid #ffffff;
+  position: relative;
+  top: 10px;
+  padding: 14px 4px;
+  height: 20px;
+  font-weight: bolder;
+  font-size: 16px;
+
+}
+.whitex:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.footer
+{
+  background-color: #000000;
+  text-align: left;
+}
+
+table
+{
+  width: 60%;
+  border-spacing: 14px;
+  margin: auto;
+}
+th
+{
+  font-size:larger;
+}
+
+.foot
+{
+  text-decoration: none;
+}
+.foot:hover
+{
+  text-decoration: underline;
+}
+.lastimg
+{
+  display: flex;
+
+}
+.width
+{
+  width: 80%;
+}
+#alt
+{
+  height: 120px;
+  width: 120px;
+}
+footer
+{
+  margin: auto;
+}
+
+
+
